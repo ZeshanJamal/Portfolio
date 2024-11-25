@@ -1,0 +1,117 @@
+.custom-hover-effect {
+    transition: background-color 0.3s ease, transform 0.4s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-hover-effect:hover {
+    transform: translateY(-15px); /* Lifts the card slightly */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7); /* Adds a shadow effect */
+  }
+  #aboutme{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.4s ease, box-shadow 0.3s ease;
+  }
+  #aboutme:hover {
+    background-color: black;
+    transform: translateY(-10px); /* Lifts the card slightly */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Adds a shadow effect */
+  }
+  #navibar{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.4s ease, box-shadow 0.3s ease;
+  }
+  #navibar:hover{
+    background-color: rgba(0, 0, 0, 10);
+  }
+  .navbar-nav .nav-link {
+    transition: background-color 0.3s, color 0.3s, padding 0.3s;
+  }
+  /* General styles for the navbar */
+.navbar {
+  padding: 0.5rem 1rem;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  color: #343a40; /* Dark text color */
+}
+#navibar {
+  padding: 0.5rem 0.5rem;
+  border-radius: 8px;
+  background-color: whitesmoke;
+}
+#navibar .nav-item {
+  margin-left: 1rem;
+}
+#navibar .nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0.3rem;
+}
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  #navibar {
+    flex-direction: column;
+    align-items: start;
+    padding: 1rem 0;
+  }
+
+  #navibar .nav-item {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.custom-navbar {
+  padding: 0.1rem 1rem; /* Reduce vertical padding */
+}
+
+.custom-navbar .offcanvas-header {
+  padding: 0.1rem; /* Adjust offcanvas header padding */
+}
+
+.custom-navbar .navbar-toggler {
+  padding: 0.1rem 0.3rem; /* Adjust button size */
+}
+
+.custom-navbar .offcanvas-body ul.navbar-nav .nav-item {
+  padding: 0.01rem 0; /* Reduce spacing between items */
+}
+
+/* Container for the typing effect */
+.header {
+  position: fixed;
+  top: 10px; /* Positioned at the bottom of the navigation bar */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 1000;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+/* Styling the name */
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-right: 2px solid white; /* Cursor effect */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
