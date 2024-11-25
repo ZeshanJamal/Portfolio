@@ -95,7 +95,7 @@
 
 /* Container for the typing effect */
 .header {
-  position: relative;
+  position: absolute;
   top: 10px; /* Positioned at the bottom of the navigation bar */
   left: 50%;
   transform: translateX(-50%);
